@@ -1,0 +1,27 @@
+Vivado Simulator v2023.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: /tools/Xilinx/Vivado/2023.1/bin/unwrapped/lnx64.o/xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench1_behav xil_defaultlib.testbench1 xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 9 for port 'bus_request_mem_address' [/home/debleena/Thales/ReleaseMSI_bus/stage2.sv:132]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 2 for port 'bus_request' [/home/debleena/Thales/ReleaseMSI_bus/stage2.sv:133]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 2 for port 'bus_reply' [/home/debleena/Thales/ReleaseMSI_bus/stage2.sv:134]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 9 for port 'bus_request_mem_address' [/home/debleena/Thales/ReleaseMSI_bus/stage2.sv:151]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 2 for port 'bus_request' [/home/debleena/Thales/ReleaseMSI_bus/stage2.sv:152]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 2 for port 'bus_reply' [/home/debleena/Thales/ReleaseMSI_bus/stage2.sv:153]
+WARNING: [VRFC 10-3823] variable 'rd_cpu' might have multiple concurrent drivers [/home/debleena/Thales/ReleaseMSI_bus/stage2.sv:109]
+WARNING: [VRFC 10-3823] variable 'wr_cpu' might have multiple concurrent drivers [/home/debleena/Thales/ReleaseMSI_bus/stage2.sv:110]
+WARNING: [VRFC 10-3823] variable 'mem_addr' might have multiple concurrent drivers [/home/debleena/Thales/ReleaseMSI_bus/stage2.sv:111]
+WARNING: [VRFC 10-3823] variable 'mem_wdata' might have multiple concurrent drivers [/home/debleena/Thales/ReleaseMSI_bus/stage2.sv:112]
+WARNING: [VRFC 10-5021] port 'state_next_bus' is not connected on this instance [/home/debleena/Thales/ReleaseMSI_bus/stage2.sv:117]
+WARNING: [VRFC 10-3823] variable 'data_out' might have multiple concurrent drivers [/home/debleena/Thales/ReleaseMSI_bus/stage2.sv:140]
+WARNING: [VRFC 10-3823] variable 'data_mem_out' might have multiple concurrent drivers [/home/debleena/Thales/ReleaseMSI_bus/stage2.sv:142]
+WARNING: [VRFC 10-3823] variable 'addr_mem' might have multiple concurrent drivers [/home/debleena/Thales/ReleaseMSI_bus/stage2.sv:144]
+WARNING: [VRFC 10-3823] variable 'rd_mem' might have multiple concurrent drivers [/home/debleena/Thales/ReleaseMSI_bus/stage2.sv:147]
+WARNING: [VRFC 10-3823] variable 'wr_mem' might have multiple concurrent drivers [/home/debleena/Thales/ReleaseMSI_bus/stage2.sv:148]
+WARNING: [VRFC 10-3823] variable 'stall_cpu' might have multiple concurrent drivers [/home/debleena/Thales/ReleaseMSI_bus/stage2.sv:149]
+WARNING: [VRFC 10-5021] port 'state_next_bus' is not connected on this instance [/home/debleena/Thales/ReleaseMSI_bus/stage2.sv:136]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel

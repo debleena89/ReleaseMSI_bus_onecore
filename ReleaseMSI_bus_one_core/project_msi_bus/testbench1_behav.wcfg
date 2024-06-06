@@ -1,0 +1,1776 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="testbench1_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="testbench1" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="248.006 ns"></ZoomEndTime>
+      <Cursor1Time time="15.816 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="196"></NameColumnWidth>
+      <ValueColumnWidth column_width="66"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="9" />
+   <wvobject type="group" fp_name="group15">
+      <obj_property name="label">testbench</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="logic" fp_name="/testbench1/clk">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/resetn">
+         <obj_property name="ElementShortName">resetn</obj_property>
+         <obj_property name="ObjectShortName">resetn</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/trap">
+         <obj_property name="ElementShortName">trap</obj_property>
+         <obj_property name="ObjectShortName">trap</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/mem_instr">
+         <obj_property name="ElementShortName">mem_instr</obj_property>
+         <obj_property name="ObjectShortName">mem_instr</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/mem_addr">
+         <obj_property name="ElementShortName">mem_addr[8:0]</obj_property>
+         <obj_property name="ObjectShortName">mem_addr[8:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/mem_wdata">
+         <obj_property name="ElementShortName">mem_wdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">mem_wdata[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/mem_wstrb">
+         <obj_property name="ElementShortName">mem_wstrb[3:0]</obj_property>
+         <obj_property name="ObjectShortName">mem_wstrb[3:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group1556">
+      <obj_property name="label">uut</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="logic" fp_name="/testbench1/uut/mem_instr">
+         <obj_property name="ElementShortName">mem_instr</obj_property>
+         <obj_property name="ObjectShortName">mem_instr</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/mem_addr">
+         <obj_property name="ElementShortName">mem_addr[8:0]</obj_property>
+         <obj_property name="ObjectShortName">mem_addr[8:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/mem_wdata">
+         <obj_property name="ElementShortName">mem_wdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">mem_wdata[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/mem_wstrb">
+         <obj_property name="ElementShortName">mem_wstrb[3:0]</obj_property>
+         <obj_property name="ObjectShortName">mem_wstrb[3:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/mem_valid">
+         <obj_property name="ElementShortName">mem_valid</obj_property>
+         <obj_property name="ObjectShortName">mem_valid</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/mem_ready">
+         <obj_property name="ElementShortName">mem_ready</obj_property>
+         <obj_property name="ObjectShortName">mem_ready</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/rdata_core">
+         <obj_property name="ElementShortName">rdata_core[31:0]</obj_property>
+         <obj_property name="ObjectShortName">rdata_core[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/addr_mem">
+         <obj_property name="ElementShortName">addr_mem[8:0]</obj_property>
+         <obj_property name="ObjectShortName">addr_mem[8:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/rd_cpu">
+         <obj_property name="ElementShortName">rd_cpu</obj_property>
+         <obj_property name="ObjectShortName">rd_cpu</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/wr_cpu">
+         <obj_property name="ElementShortName">wr_cpu</obj_property>
+         <obj_property name="ObjectShortName">wr_cpu</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/rd_mem">
+         <obj_property name="ElementShortName">rd_mem</obj_property>
+         <obj_property name="ObjectShortName">rd_mem</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/wr_mem">
+         <obj_property name="ElementShortName">wr_mem</obj_property>
+         <obj_property name="ObjectShortName">wr_mem</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/ready_mem">
+         <obj_property name="ElementShortName">ready_mem</obj_property>
+         <obj_property name="ObjectShortName">ready_mem</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/mem_rdata">
+         <obj_property name="ElementShortName">mem_rdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">mem_rdata[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/data_out">
+         <obj_property name="ElementShortName">data_out[31:0]</obj_property>
+         <obj_property name="ObjectShortName">data_out[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/data_mem_in">
+         <obj_property name="ElementShortName">data_mem_in[31:0]</obj_property>
+         <obj_property name="ObjectShortName">data_mem_in[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/data_mem_out">
+         <obj_property name="ElementShortName">data_mem_out[31:0]</obj_property>
+         <obj_property name="ObjectShortName">data_mem_out[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/stall_cpu">
+         <obj_property name="ElementShortName">stall_cpu</obj_property>
+         <obj_property name="ObjectShortName">stall_cpu</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/counter">
+         <obj_property name="ElementShortName">counter[1:0]</obj_property>
+         <obj_property name="ObjectShortName">counter[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/wr_mem_streched">
+         <obj_property name="ElementShortName">wr_mem_streched</obj_property>
+         <obj_property name="ObjectShortName">wr_mem_streched</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/wr_mem_active">
+         <obj_property name="ElementShortName">wr_mem_active</obj_property>
+         <obj_property name="ObjectShortName">wr_mem_active</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/cache2_ask_mem_address">
+         <obj_property name="ElementShortName">cache2_ask_mem_address</obj_property>
+         <obj_property name="ObjectShortName">cache2_ask_mem_address</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/cache2_bus_reply">
+         <obj_property name="ElementShortName">cache2_bus_reply</obj_property>
+         <obj_property name="ObjectShortName">cache2_bus_reply</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/cache1_bus_reply">
+         <obj_property name="ElementShortName">cache1_bus_reply</obj_property>
+         <obj_property name="ObjectShortName">cache1_bus_reply</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/PICO_EN">
+         <obj_property name="ElementShortName">PICO_EN[31:0]</obj_property>
+         <obj_property name="ObjectShortName">PICO_EN[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/AWIDTH">
+         <obj_property name="ElementShortName">AWIDTH[31:0]</obj_property>
+         <obj_property name="ObjectShortName">AWIDTH[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/DWIDTH_CPU">
+         <obj_property name="ElementShortName">DWIDTH_CPU[31:0]</obj_property>
+         <obj_property name="ObjectShortName">DWIDTH_CPU[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/CACHELINES">
+         <obj_property name="ElementShortName">CACHELINES[31:0]</obj_property>
+         <obj_property name="ObjectShortName">CACHELINES[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/BLOCKSIZE">
+         <obj_property name="ElementShortName">BLOCKSIZE[31:0]</obj_property>
+         <obj_property name="ObjectShortName">BLOCKSIZE[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/NUMOFSETS">
+         <obj_property name="ElementShortName">NUMOFSETS[31:0]</obj_property>
+         <obj_property name="ObjectShortName">NUMOFSETS[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/VALIDBIT">
+         <obj_property name="ElementShortName">VALIDBIT[31:0]</obj_property>
+         <obj_property name="ObjectShortName">VALIDBIT[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/DIRTYBIT">
+         <obj_property name="ElementShortName">DIRTYBIT[31:0]</obj_property>
+         <obj_property name="ObjectShortName">DIRTYBIT[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/USEDBIT">
+         <obj_property name="ElementShortName">USEDBIT[31:0]</obj_property>
+         <obj_property name="ObjectShortName">USEDBIT[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/TAGWIDTH">
+         <obj_property name="ElementShortName">TAGWIDTH[31:0]</obj_property>
+         <obj_property name="ObjectShortName">TAGWIDTH[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group2106">
+      <obj_property name="label">CORE</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="logic" fp_name="/testbench1/uut/\genblk1.dummy_core1 /clk">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/\genblk1.dummy_core1 /resetn">
+         <obj_property name="ElementShortName">resetn</obj_property>
+         <obj_property name="ObjectShortName">resetn</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/\genblk1.dummy_core1 /fetched_data">
+         <obj_property name="ElementShortName">fetched_data[31:0]</obj_property>
+         <obj_property name="ObjectShortName">fetched_data[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/\genblk1.dummy_core1 /stall_cpu">
+         <obj_property name="ElementShortName">stall_cpu</obj_property>
+         <obj_property name="ObjectShortName">stall_cpu</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/\genblk1.dummy_core1 /read">
+         <obj_property name="ElementShortName">read</obj_property>
+         <obj_property name="ObjectShortName">read</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/\genblk1.dummy_core1 /write">
+         <obj_property name="ElementShortName">write</obj_property>
+         <obj_property name="ObjectShortName">write</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/\genblk1.dummy_core1 /address">
+         <obj_property name="ElementShortName">address[8:0]</obj_property>
+         <obj_property name="ObjectShortName">address[8:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/\genblk1.dummy_core1 /write_data">
+         <obj_property name="ElementShortName">write_data[31:0]</obj_property>
+         <obj_property name="ObjectShortName">write_data[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/\genblk1.dummy_core1 /i">
+         <obj_property name="ElementShortName">i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">i[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/\genblk1.dummy_core1 /index">
+         <obj_property name="ElementShortName">index[31:0]</obj_property>
+         <obj_property name="ObjectShortName">index[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/\genblk1.dummy_core1 /instructions">
+         <obj_property name="ElementShortName">instructions[0:64][41:0]</obj_property>
+         <obj_property name="ObjectShortName">instructions[0:64][41:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/\genblk1.dummy_core1 /data_memory">
+         <obj_property name="ElementShortName">data_memory[0:64][31:0]</obj_property>
+         <obj_property name="ObjectShortName">data_memory[0:64][31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group6151">
+      <obj_property name="label">core2</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="group" fp_name="group4795">
+         <obj_property name="label">CACHE1.CPU</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="array" fp_name="/testbench1/uut/cache1/_CTRL_R_/state_in">
+            <obj_property name="ElementShortName">state_in[1:0]</obj_property>
+            <obj_property name="ObjectShortName">state_in[1:0]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/testbench1/uut/cache1/_CTRL_R_/cpu_write_hit">
+            <obj_property name="ElementShortName">cpu_write_hit</obj_property>
+            <obj_property name="ObjectShortName">cpu_write_hit</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/testbench1/uut/cache1/_CTRL_R_/cpu_read_hit">
+            <obj_property name="ElementShortName">cpu_read_hit</obj_property>
+            <obj_property name="ObjectShortName">cpu_read_hit</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/testbench1/uut/cache1/_CTRL_R_/cpu_write_miss">
+            <obj_property name="ElementShortName">cpu_write_miss</obj_property>
+            <obj_property name="ObjectShortName">cpu_write_miss</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/testbench1/uut/cache1/_CTRL_R_/cpu_read_miss">
+            <obj_property name="ElementShortName">cpu_read_miss</obj_property>
+            <obj_property name="ObjectShortName">cpu_read_miss</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/testbench1/uut/cache1/_CTRL_R_/write_back_block_next">
+            <obj_property name="ElementShortName">write_back_block_next</obj_property>
+            <obj_property name="ObjectShortName">write_back_block_next</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/testbench1/uut/cache1/_CTRL_R_/state_next">
+            <obj_property name="ElementShortName">state_next[1:0]</obj_property>
+            <obj_property name="ObjectShortName">state_next[1:0]</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/testbench1/uut/cache1/_CTRL_R_/bus_next">
+            <obj_property name="ElementShortName">bus_next[1:0]</obj_property>
+            <obj_property name="ObjectShortName">bus_next[1:0]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/testbench1/uut/cache1/_CTRL_R_/cpu_write">
+            <obj_property name="ElementShortName">cpu_write</obj_property>
+            <obj_property name="ObjectShortName">cpu_write</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/testbench1/uut/cache1/_CTRL_R_/cpu_read">
+            <obj_property name="ElementShortName">cpu_read</obj_property>
+            <obj_property name="ObjectShortName">cpu_read</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/testbench1/uut/cache1/_CTRL_R_/state_name_cpu">
+            <obj_property name="ElementShortName">state_name_cpu[31:0]</obj_property>
+            <obj_property name="ObjectShortName">state_name_cpu[31:0]</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/testbench1/uut/cache1/_CTRL_R_/BUS_INVALIDATE">
+            <obj_property name="ElementShortName">BUS_INVALIDATE[1:0]</obj_property>
+            <obj_property name="ObjectShortName">BUS_INVALIDATE[1:0]</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/testbench1/uut/cache1/_CTRL_R_/BUS_WRITE_MISS">
+            <obj_property name="ElementShortName">BUS_WRITE_MISS[1:0]</obj_property>
+            <obj_property name="ObjectShortName">BUS_WRITE_MISS[1:0]</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/testbench1/uut/cache1/_CTRL_R_/BUS_READ_MISS">
+            <obj_property name="ElementShortName">BUS_READ_MISS[1:0]</obj_property>
+            <obj_property name="ObjectShortName">BUS_READ_MISS[1:0]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/dummy_core2/clk">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/dummy_core2/resetn">
+         <obj_property name="ElementShortName">resetn</obj_property>
+         <obj_property name="ObjectShortName">resetn</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/dummy_core2/fetched_data">
+         <obj_property name="ElementShortName">fetched_data[31:0]</obj_property>
+         <obj_property name="ObjectShortName">fetched_data[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/dummy_core2/stall_cpu">
+         <obj_property name="ElementShortName">stall_cpu</obj_property>
+         <obj_property name="ObjectShortName">stall_cpu</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/dummy_core2/read">
+         <obj_property name="ElementShortName">read</obj_property>
+         <obj_property name="ObjectShortName">read</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/dummy_core2/write">
+         <obj_property name="ElementShortName">write</obj_property>
+         <obj_property name="ObjectShortName">write</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/dummy_core2/address">
+         <obj_property name="ElementShortName">address[8:0]</obj_property>
+         <obj_property name="ObjectShortName">address[8:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/dummy_core2/write_data">
+         <obj_property name="ElementShortName">write_data[31:0]</obj_property>
+         <obj_property name="ObjectShortName">write_data[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/dummy_core2/i">
+         <obj_property name="ElementShortName">i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">i[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/dummy_core2/index">
+         <obj_property name="ElementShortName">index[31:0]</obj_property>
+         <obj_property name="ObjectShortName">index[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/dummy_core2/instructions">
+         <obj_property name="ElementShortName">instructions[0:64][41:0]</obj_property>
+         <obj_property name="ObjectShortName">instructions[0:64][41:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/dummy_core2/data_memory">
+         <obj_property name="ElementShortName">data_memory[0:64][31:0]</obj_property>
+         <obj_property name="ObjectShortName">data_memory[0:64][31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group3538">
+      <obj_property name="label">CACHE1</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="logic" fp_name="/testbench1/uut/cache1/clock">
+         <obj_property name="ElementShortName">clock</obj_property>
+         <obj_property name="ObjectShortName">clock</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/cache1/reset_n">
+         <obj_property name="ElementShortName">reset_n</obj_property>
+         <obj_property name="ObjectShortName">reset_n</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache1/data_in">
+         <obj_property name="ElementShortName">data_in[31:0]</obj_property>
+         <obj_property name="ObjectShortName">data_in[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache1/data_mem_in">
+         <obj_property name="ElementShortName">data_mem_in[31:0]</obj_property>
+         <obj_property name="ObjectShortName">data_mem_in[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache1/addr_cpu">
+         <obj_property name="ElementShortName">addr_cpu[8:0]</obj_property>
+         <obj_property name="ObjectShortName">addr_cpu[8:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache1/addr_mem">
+         <obj_property name="ElementShortName">addr_mem[8:0]</obj_property>
+         <obj_property name="ObjectShortName">addr_mem[8:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/cache1/rd_cpu">
+         <obj_property name="ElementShortName">rd_cpu</obj_property>
+         <obj_property name="ObjectShortName">rd_cpu</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/cache1/wr_cpu">
+         <obj_property name="ElementShortName">wr_cpu</obj_property>
+         <obj_property name="ObjectShortName">wr_cpu</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache1/bus_request">
+         <obj_property name="ElementShortName">bus_request[1:0]</obj_property>
+         <obj_property name="ObjectShortName">bus_request[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache1/bus_request_mem_address">
+         <obj_property name="ElementShortName">bus_request_mem_address[8:0]</obj_property>
+         <obj_property name="ObjectShortName">bus_request_mem_address[8:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache1/bus_reply">
+         <obj_property name="ElementShortName">bus_reply[1:0]</obj_property>
+         <obj_property name="ObjectShortName">bus_reply[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache1/state_next_bus">
+         <obj_property name="ElementShortName">state_next_bus[1:0]</obj_property>
+         <obj_property name="ObjectShortName">state_next_bus[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/cache1/rd_mem">
+         <obj_property name="ElementShortName">rd_mem</obj_property>
+         <obj_property name="ObjectShortName">rd_mem</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/cache1/wr_mem">
+         <obj_property name="ElementShortName">wr_mem</obj_property>
+         <obj_property name="ObjectShortName">wr_mem</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/cache1/stall_cpu">
+         <obj_property name="ElementShortName">stall_cpu</obj_property>
+         <obj_property name="ObjectShortName">stall_cpu</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/cache1/ready_mem">
+         <obj_property name="ElementShortName">ready_mem</obj_property>
+         <obj_property name="ObjectShortName">ready_mem</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache1/data_out">
+         <obj_property name="ElementShortName">data_out[31:0]</obj_property>
+         <obj_property name="ObjectShortName">data_out[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache1/data_mem_out">
+         <obj_property name="ElementShortName">data_mem_out[31:0]</obj_property>
+         <obj_property name="ObjectShortName">data_mem_out[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache1/tagdata">
+         <obj_property name="ElementShortName">tagdata[5:0]</obj_property>
+         <obj_property name="ObjectShortName">tagdata[5:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache1/index">
+         <obj_property name="ElementShortName">index[2:0]</obj_property>
+         <obj_property name="ObjectShortName">index[2:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache1/MSI_bit0">
+         <obj_property name="ElementShortName">MSI_bit0[1:0]</obj_property>
+         <obj_property name="ObjectShortName">MSI_bit0[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache1/MSI_bit1">
+         <obj_property name="ElementShortName">MSI_bit1[1:0]</obj_property>
+         <obj_property name="ObjectShortName">MSI_bit1[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache1/state_in">
+         <obj_property name="ElementShortName">state_in[1:0]</obj_property>
+         <obj_property name="ObjectShortName">state_in[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache1/state_next">
+         <obj_property name="ElementShortName">state_next[1:0]</obj_property>
+         <obj_property name="ObjectShortName">state_next[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache1/rdata_byte">
+         <obj_property name="ElementShortName">rdata_byte[31:0]</obj_property>
+         <obj_property name="ObjectShortName">rdata_byte[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache1/wdata_byte">
+         <obj_property name="ElementShortName">wdata_byte[31:0]</obj_property>
+         <obj_property name="ObjectShortName">wdata_byte[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache1/wmem_byte">
+         <obj_property name="ElementShortName">wmem_byte[31:0]</obj_property>
+         <obj_property name="ObjectShortName">wmem_byte[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache1/rmem_4byte">
+         <obj_property name="ElementShortName">rmem_4byte[31:0]</obj_property>
+         <obj_property name="ObjectShortName">rmem_4byte[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache1/wmem_4byte">
+         <obj_property name="ElementShortName">wmem_4byte[31:0]</obj_property>
+         <obj_property name="ObjectShortName">wmem_4byte[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/cache1/cpu_read_hit">
+         <obj_property name="ElementShortName">cpu_read_hit</obj_property>
+         <obj_property name="ObjectShortName">cpu_read_hit</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/cache1/cpu_read_miss">
+         <obj_property name="ElementShortName">cpu_read_miss</obj_property>
+         <obj_property name="ObjectShortName">cpu_read_miss</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/cache1/cpu_write_hit">
+         <obj_property name="ElementShortName">cpu_write_hit</obj_property>
+         <obj_property name="ObjectShortName">cpu_write_hit</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/cache1/cpu_write_miss">
+         <obj_property name="ElementShortName">cpu_write_miss</obj_property>
+         <obj_property name="ObjectShortName">cpu_write_miss</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/cache1/write_hit">
+         <obj_property name="ElementShortName">write_hit</obj_property>
+         <obj_property name="ObjectShortName">write_hit</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/cache1/write_miss">
+         <obj_property name="ElementShortName">write_miss</obj_property>
+         <obj_property name="ObjectShortName">write_miss</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/cache1/read_hit">
+         <obj_property name="ElementShortName">read_hit</obj_property>
+         <obj_property name="ObjectShortName">read_hit</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/cache1/read_miss">
+         <obj_property name="ElementShortName">read_miss</obj_property>
+         <obj_property name="ObjectShortName">read_miss</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/cache1/miss">
+         <obj_property name="ElementShortName">miss</obj_property>
+         <obj_property name="ObjectShortName">miss</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/cache1/rdwr">
+         <obj_property name="ElementShortName">rdwr</obj_property>
+         <obj_property name="ObjectShortName">rdwr</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/cache1/we0">
+         <obj_property name="ElementShortName">we0</obj_property>
+         <obj_property name="ObjectShortName">we0</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/cache1/we1">
+         <obj_property name="ElementShortName">we1</obj_property>
+         <obj_property name="ObjectShortName">we1</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/cache1/wet0">
+         <obj_property name="ElementShortName">wet0</obj_property>
+         <obj_property name="ObjectShortName">wet0</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/cache1/wet1">
+         <obj_property name="ElementShortName">wet1</obj_property>
+         <obj_property name="ObjectShortName">wet1</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/cache1/update_flag">
+         <obj_property name="ElementShortName">update_flag</obj_property>
+         <obj_property name="ObjectShortName">update_flag</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/cache1/miss_flag">
+         <obj_property name="ElementShortName">miss_flag</obj_property>
+         <obj_property name="ObjectShortName">miss_flag</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/cache1/hit">
+         <obj_property name="ElementShortName">hit</obj_property>
+         <obj_property name="ObjectShortName">hit</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/cache1/hit_w0">
+         <obj_property name="ElementShortName">hit_w0</obj_property>
+         <obj_property name="ObjectShortName">hit_w0</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/cache1/hit_w1">
+         <obj_property name="ElementShortName">hit_w1</obj_property>
+         <obj_property name="ObjectShortName">hit_w1</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/cache1/valid">
+         <obj_property name="ElementShortName">valid</obj_property>
+         <obj_property name="ObjectShortName">valid</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/cache1/vw0">
+         <obj_property name="ElementShortName">vw0</obj_property>
+         <obj_property name="ObjectShortName">vw0</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/cache1/vw1">
+         <obj_property name="ElementShortName">vw1</obj_property>
+         <obj_property name="ObjectShortName">vw1</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/cache1/uw0">
+         <obj_property name="ElementShortName">uw0</obj_property>
+         <obj_property name="ObjectShortName">uw0</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/cache1/uw1">
+         <obj_property name="ElementShortName">uw1</obj_property>
+         <obj_property name="ObjectShortName">uw1</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/cache1/dirty">
+         <obj_property name="ElementShortName">dirty</obj_property>
+         <obj_property name="ObjectShortName">dirty</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/cache1/dw0">
+         <obj_property name="ElementShortName">dw0</obj_property>
+         <obj_property name="ObjectShortName">dw0</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/cache1/dw1">
+         <obj_property name="ElementShortName">dw1</obj_property>
+         <obj_property name="ObjectShortName">dw1</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache1/rtag0">
+         <obj_property name="ElementShortName">rtag0[10:0]</obj_property>
+         <obj_property name="ObjectShortName">rtag0[10:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache1/rtag1">
+         <obj_property name="ElementShortName">rtag1[10:0]</obj_property>
+         <obj_property name="ObjectShortName">rtag1[10:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache1/rdata0">
+         <obj_property name="ElementShortName">rdata0[31:0]</obj_property>
+         <obj_property name="ObjectShortName">rdata0[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache1/rdata1">
+         <obj_property name="ElementShortName">rdata1[31:0]</obj_property>
+         <obj_property name="ObjectShortName">rdata1[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache1/rdata">
+         <obj_property name="ElementShortName">rdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">rdata[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache1/wdata">
+         <obj_property name="ElementShortName">wdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">wdata[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache1/strdata0">
+         <obj_property name="ElementShortName">strdata0[31:0]</obj_property>
+         <obj_property name="ObjectShortName">strdata0[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache1/strdata1">
+         <obj_property name="ElementShortName">strdata1[31:0]</obj_property>
+         <obj_property name="ObjectShortName">strdata1[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache1/wtag0">
+         <obj_property name="ElementShortName">wtag0[10:0]</obj_property>
+         <obj_property name="ObjectShortName">wtag0[10:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache1/wtag1">
+         <obj_property name="ElementShortName">wtag1[10:0]</obj_property>
+         <obj_property name="ObjectShortName">wtag1[10:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache1/strtag0">
+         <obj_property name="ElementShortName">strtag0[10:0]</obj_property>
+         <obj_property name="ObjectShortName">strtag0[10:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache1/strtag1">
+         <obj_property name="ElementShortName">strtag1[10:0]</obj_property>
+         <obj_property name="ObjectShortName">strtag1[10:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache1/addrlatch">
+         <obj_property name="ElementShortName">addrlatch[8:0]</obj_property>
+         <obj_property name="ObjectShortName">addrlatch[8:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache1/state">
+         <obj_property name="ElementShortName">state[2:0]</obj_property>
+         <obj_property name="ObjectShortName">state[2:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache1/state_name">
+         <obj_property name="ElementShortName">state_name[31:0]</obj_property>
+         <obj_property name="ObjectShortName">state_name[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache1/bus_tagdata">
+         <obj_property name="ElementShortName">bus_tagdata[5:0]</obj_property>
+         <obj_property name="ObjectShortName">bus_tagdata[5:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache1/bus_index">
+         <obj_property name="ElementShortName">bus_index[2:0]</obj_property>
+         <obj_property name="ObjectShortName">bus_index[2:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache1/bus_MSI_bit0">
+         <obj_property name="ElementShortName">bus_MSI_bit0[1:0]</obj_property>
+         <obj_property name="ObjectShortName">bus_MSI_bit0[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache1/bus_MSI_bit1">
+         <obj_property name="ElementShortName">bus_MSI_bit1[1:0]</obj_property>
+         <obj_property name="ObjectShortName">bus_MSI_bit1[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache1/bus_state_in">
+         <obj_property name="ElementShortName">bus_state_in[1:0]</obj_property>
+         <obj_property name="ObjectShortName">bus_state_in[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache1/bus_state_next">
+         <obj_property name="ElementShortName">bus_state_next[1:0]</obj_property>
+         <obj_property name="ObjectShortName">bus_state_next[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/cache1/bus_hit">
+         <obj_property name="ElementShortName">bus_hit</obj_property>
+         <obj_property name="ObjectShortName">bus_hit</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/cache1/bus_hit_w0">
+         <obj_property name="ElementShortName">bus_hit_w0</obj_property>
+         <obj_property name="ObjectShortName">bus_hit_w0</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/cache1/bus_hit_w1">
+         <obj_property name="ElementShortName">bus_hit_w1</obj_property>
+         <obj_property name="ObjectShortName">bus_hit_w1</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/cache1/bus_valid">
+         <obj_property name="ElementShortName">bus_valid</obj_property>
+         <obj_property name="ObjectShortName">bus_valid</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/cache1/bus_vw0">
+         <obj_property name="ElementShortName">bus_vw0</obj_property>
+         <obj_property name="ObjectShortName">bus_vw0</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/cache1/bus_vw1">
+         <obj_property name="ElementShortName">bus_vw1</obj_property>
+         <obj_property name="ObjectShortName">bus_vw1</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache1/bus_rtag0">
+         <obj_property name="ElementShortName">bus_rtag0[10:0]</obj_property>
+         <obj_property name="ObjectShortName">bus_rtag0[10:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache1/bus_rtag1">
+         <obj_property name="ElementShortName">bus_rtag1[10:0]</obj_property>
+         <obj_property name="ObjectShortName">bus_rtag1[10:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache1/bus_wtag0">
+         <obj_property name="ElementShortName">bus_wtag0[10:0]</obj_property>
+         <obj_property name="ObjectShortName">bus_wtag0[10:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache1/bus_wtag1">
+         <obj_property name="ElementShortName">bus_wtag1[10:0]</obj_property>
+         <obj_property name="ObjectShortName">bus_wtag1[10:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/cache1/bus_wet0">
+         <obj_property name="ElementShortName">bus_wet0</obj_property>
+         <obj_property name="ObjectShortName">bus_wet0</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/cache1/bus_wet1">
+         <obj_property name="ElementShortName">bus_wet1</obj_property>
+         <obj_property name="ObjectShortName">bus_wet1</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/cache1/bus_uw0">
+         <obj_property name="ElementShortName">bus_uw0</obj_property>
+         <obj_property name="ObjectShortName">bus_uw0</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/cache1/bus_uw1">
+         <obj_property name="ElementShortName">bus_uw1</obj_property>
+         <obj_property name="ObjectShortName">bus_uw1</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/cache1/bus_miss">
+         <obj_property name="ElementShortName">bus_miss</obj_property>
+         <obj_property name="ObjectShortName">bus_miss</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/cache1/bus_controler_write_back">
+         <obj_property name="ElementShortName">bus_controler_write_back</obj_property>
+         <obj_property name="ObjectShortName">bus_controler_write_back</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache1/AWIDTH">
+         <obj_property name="ElementShortName">AWIDTH[31:0]</obj_property>
+         <obj_property name="ObjectShortName">AWIDTH[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache1/DWIDTH">
+         <obj_property name="ElementShortName">DWIDTH[31:0]</obj_property>
+         <obj_property name="ObjectShortName">DWIDTH[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache1/CACHELINES">
+         <obj_property name="ElementShortName">CACHELINES[31:0]</obj_property>
+         <obj_property name="ObjectShortName">CACHELINES[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache1/BLOCKSIZE">
+         <obj_property name="ElementShortName">BLOCKSIZE[31:0]</obj_property>
+         <obj_property name="ObjectShortName">BLOCKSIZE[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache1/NUMOFSETS">
+         <obj_property name="ElementShortName">NUMOFSETS[31:0]</obj_property>
+         <obj_property name="ObjectShortName">NUMOFSETS[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache1/VALIDBIT">
+         <obj_property name="ElementShortName">VALIDBIT[31:0]</obj_property>
+         <obj_property name="ObjectShortName">VALIDBIT[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache1/DIRTYBIT">
+         <obj_property name="ElementShortName">DIRTYBIT[31:0]</obj_property>
+         <obj_property name="ObjectShortName">DIRTYBIT[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache1/USEDBIT">
+         <obj_property name="ElementShortName">USEDBIT[31:0]</obj_property>
+         <obj_property name="ObjectShortName">USEDBIT[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache1/TAGWIDTH">
+         <obj_property name="ElementShortName">TAGWIDTH[31:0]</obj_property>
+         <obj_property name="ObjectShortName">TAGWIDTH[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache1/MSIBIT">
+         <obj_property name="ElementShortName">MSIBIT[31:0]</obj_property>
+         <obj_property name="ObjectShortName">MSIBIT[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache1/BUS_INVALIDATE">
+         <obj_property name="ElementShortName">BUS_INVALIDATE[1:0]</obj_property>
+         <obj_property name="ObjectShortName">BUS_INVALIDATE[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache1/BUS_WRITE_MISS">
+         <obj_property name="ElementShortName">BUS_WRITE_MISS[1:0]</obj_property>
+         <obj_property name="ObjectShortName">BUS_WRITE_MISS[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache1/BUS_READ_MISS">
+         <obj_property name="ElementShortName">BUS_READ_MISS[1:0]</obj_property>
+         <obj_property name="ObjectShortName">BUS_READ_MISS[1:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group3539">
+      <obj_property name="label">CACHE2</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="logic" fp_name="/testbench1/uut/cache2/clock">
+         <obj_property name="ElementShortName">clock</obj_property>
+         <obj_property name="ObjectShortName">clock</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/cache2/reset_n">
+         <obj_property name="ElementShortName">reset_n</obj_property>
+         <obj_property name="ObjectShortName">reset_n</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache2/data_in">
+         <obj_property name="ElementShortName">data_in[31:0]</obj_property>
+         <obj_property name="ObjectShortName">data_in[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache2/data_mem_in">
+         <obj_property name="ElementShortName">data_mem_in[31:0]</obj_property>
+         <obj_property name="ObjectShortName">data_mem_in[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache2/addr_cpu">
+         <obj_property name="ElementShortName">addr_cpu[8:0]</obj_property>
+         <obj_property name="ObjectShortName">addr_cpu[8:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache2/addr_mem">
+         <obj_property name="ElementShortName">addr_mem[8:0]</obj_property>
+         <obj_property name="ObjectShortName">addr_mem[8:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/cache2/rd_cpu">
+         <obj_property name="ElementShortName">rd_cpu</obj_property>
+         <obj_property name="ObjectShortName">rd_cpu</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/cache2/wr_cpu">
+         <obj_property name="ElementShortName">wr_cpu</obj_property>
+         <obj_property name="ObjectShortName">wr_cpu</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache2/bus_request">
+         <obj_property name="ElementShortName">bus_request[1:0]</obj_property>
+         <obj_property name="ObjectShortName">bus_request[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache2/bus_request_mem_address">
+         <obj_property name="ElementShortName">bus_request_mem_address[8:0]</obj_property>
+         <obj_property name="ObjectShortName">bus_request_mem_address[8:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache2/bus_reply">
+         <obj_property name="ElementShortName">bus_reply[1:0]</obj_property>
+         <obj_property name="ObjectShortName">bus_reply[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache2/state_next_bus">
+         <obj_property name="ElementShortName">state_next_bus[1:0]</obj_property>
+         <obj_property name="ObjectShortName">state_next_bus[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/cache2/rd_mem">
+         <obj_property name="ElementShortName">rd_mem</obj_property>
+         <obj_property name="ObjectShortName">rd_mem</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/cache2/wr_mem">
+         <obj_property name="ElementShortName">wr_mem</obj_property>
+         <obj_property name="ObjectShortName">wr_mem</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/cache2/stall_cpu">
+         <obj_property name="ElementShortName">stall_cpu</obj_property>
+         <obj_property name="ObjectShortName">stall_cpu</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/cache2/ready_mem">
+         <obj_property name="ElementShortName">ready_mem</obj_property>
+         <obj_property name="ObjectShortName">ready_mem</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache2/data_out">
+         <obj_property name="ElementShortName">data_out[31:0]</obj_property>
+         <obj_property name="ObjectShortName">data_out[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache2/data_mem_out">
+         <obj_property name="ElementShortName">data_mem_out[31:0]</obj_property>
+         <obj_property name="ObjectShortName">data_mem_out[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache2/tagdata">
+         <obj_property name="ElementShortName">tagdata[5:0]</obj_property>
+         <obj_property name="ObjectShortName">tagdata[5:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache2/index">
+         <obj_property name="ElementShortName">index[2:0]</obj_property>
+         <obj_property name="ObjectShortName">index[2:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache2/MSI_bit0">
+         <obj_property name="ElementShortName">MSI_bit0[1:0]</obj_property>
+         <obj_property name="ObjectShortName">MSI_bit0[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache2/MSI_bit1">
+         <obj_property name="ElementShortName">MSI_bit1[1:0]</obj_property>
+         <obj_property name="ObjectShortName">MSI_bit1[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache2/state_in">
+         <obj_property name="ElementShortName">state_in[1:0]</obj_property>
+         <obj_property name="ObjectShortName">state_in[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache2/state_next">
+         <obj_property name="ElementShortName">state_next[1:0]</obj_property>
+         <obj_property name="ObjectShortName">state_next[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache2/rdata_byte">
+         <obj_property name="ElementShortName">rdata_byte[31:0]</obj_property>
+         <obj_property name="ObjectShortName">rdata_byte[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache2/wdata_byte">
+         <obj_property name="ElementShortName">wdata_byte[31:0]</obj_property>
+         <obj_property name="ObjectShortName">wdata_byte[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache2/wmem_byte">
+         <obj_property name="ElementShortName">wmem_byte[31:0]</obj_property>
+         <obj_property name="ObjectShortName">wmem_byte[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache2/rmem_4byte">
+         <obj_property name="ElementShortName">rmem_4byte[31:0]</obj_property>
+         <obj_property name="ObjectShortName">rmem_4byte[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache2/wmem_4byte">
+         <obj_property name="ElementShortName">wmem_4byte[31:0]</obj_property>
+         <obj_property name="ObjectShortName">wmem_4byte[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/cache2/cpu_read_hit">
+         <obj_property name="ElementShortName">cpu_read_hit</obj_property>
+         <obj_property name="ObjectShortName">cpu_read_hit</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/cache2/cpu_read_miss">
+         <obj_property name="ElementShortName">cpu_read_miss</obj_property>
+         <obj_property name="ObjectShortName">cpu_read_miss</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/cache2/cpu_write_hit">
+         <obj_property name="ElementShortName">cpu_write_hit</obj_property>
+         <obj_property name="ObjectShortName">cpu_write_hit</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/cache2/cpu_write_miss">
+         <obj_property name="ElementShortName">cpu_write_miss</obj_property>
+         <obj_property name="ObjectShortName">cpu_write_miss</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/cache2/write_hit">
+         <obj_property name="ElementShortName">write_hit</obj_property>
+         <obj_property name="ObjectShortName">write_hit</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/cache2/write_miss">
+         <obj_property name="ElementShortName">write_miss</obj_property>
+         <obj_property name="ObjectShortName">write_miss</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/cache2/read_hit">
+         <obj_property name="ElementShortName">read_hit</obj_property>
+         <obj_property name="ObjectShortName">read_hit</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/cache2/read_miss">
+         <obj_property name="ElementShortName">read_miss</obj_property>
+         <obj_property name="ObjectShortName">read_miss</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/cache2/miss">
+         <obj_property name="ElementShortName">miss</obj_property>
+         <obj_property name="ObjectShortName">miss</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/cache2/rdwr">
+         <obj_property name="ElementShortName">rdwr</obj_property>
+         <obj_property name="ObjectShortName">rdwr</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/cache2/we0">
+         <obj_property name="ElementShortName">we0</obj_property>
+         <obj_property name="ObjectShortName">we0</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/cache2/we1">
+         <obj_property name="ElementShortName">we1</obj_property>
+         <obj_property name="ObjectShortName">we1</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/cache2/wet0">
+         <obj_property name="ElementShortName">wet0</obj_property>
+         <obj_property name="ObjectShortName">wet0</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/cache2/wet1">
+         <obj_property name="ElementShortName">wet1</obj_property>
+         <obj_property name="ObjectShortName">wet1</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/cache2/update_flag">
+         <obj_property name="ElementShortName">update_flag</obj_property>
+         <obj_property name="ObjectShortName">update_flag</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/cache2/miss_flag">
+         <obj_property name="ElementShortName">miss_flag</obj_property>
+         <obj_property name="ObjectShortName">miss_flag</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/cache2/hit">
+         <obj_property name="ElementShortName">hit</obj_property>
+         <obj_property name="ObjectShortName">hit</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/cache2/hit_w0">
+         <obj_property name="ElementShortName">hit_w0</obj_property>
+         <obj_property name="ObjectShortName">hit_w0</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/cache2/hit_w1">
+         <obj_property name="ElementShortName">hit_w1</obj_property>
+         <obj_property name="ObjectShortName">hit_w1</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/cache2/valid">
+         <obj_property name="ElementShortName">valid</obj_property>
+         <obj_property name="ObjectShortName">valid</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/cache2/vw0">
+         <obj_property name="ElementShortName">vw0</obj_property>
+         <obj_property name="ObjectShortName">vw0</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/cache2/vw1">
+         <obj_property name="ElementShortName">vw1</obj_property>
+         <obj_property name="ObjectShortName">vw1</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/cache2/uw0">
+         <obj_property name="ElementShortName">uw0</obj_property>
+         <obj_property name="ObjectShortName">uw0</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/cache2/uw1">
+         <obj_property name="ElementShortName">uw1</obj_property>
+         <obj_property name="ObjectShortName">uw1</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/cache2/dirty">
+         <obj_property name="ElementShortName">dirty</obj_property>
+         <obj_property name="ObjectShortName">dirty</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/cache2/dw0">
+         <obj_property name="ElementShortName">dw0</obj_property>
+         <obj_property name="ObjectShortName">dw0</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/cache2/dw1">
+         <obj_property name="ElementShortName">dw1</obj_property>
+         <obj_property name="ObjectShortName">dw1</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache2/rtag0">
+         <obj_property name="ElementShortName">rtag0[10:0]</obj_property>
+         <obj_property name="ObjectShortName">rtag0[10:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache2/rtag1">
+         <obj_property name="ElementShortName">rtag1[10:0]</obj_property>
+         <obj_property name="ObjectShortName">rtag1[10:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache2/rdata0">
+         <obj_property name="ElementShortName">rdata0[31:0]</obj_property>
+         <obj_property name="ObjectShortName">rdata0[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache2/rdata1">
+         <obj_property name="ElementShortName">rdata1[31:0]</obj_property>
+         <obj_property name="ObjectShortName">rdata1[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache2/rdata">
+         <obj_property name="ElementShortName">rdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">rdata[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache2/wdata">
+         <obj_property name="ElementShortName">wdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">wdata[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache2/strdata0">
+         <obj_property name="ElementShortName">strdata0[31:0]</obj_property>
+         <obj_property name="ObjectShortName">strdata0[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache2/strdata1">
+         <obj_property name="ElementShortName">strdata1[31:0]</obj_property>
+         <obj_property name="ObjectShortName">strdata1[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache2/wtag0">
+         <obj_property name="ElementShortName">wtag0[10:0]</obj_property>
+         <obj_property name="ObjectShortName">wtag0[10:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache2/wtag1">
+         <obj_property name="ElementShortName">wtag1[10:0]</obj_property>
+         <obj_property name="ObjectShortName">wtag1[10:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache2/strtag0">
+         <obj_property name="ElementShortName">strtag0[10:0]</obj_property>
+         <obj_property name="ObjectShortName">strtag0[10:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache2/strtag1">
+         <obj_property name="ElementShortName">strtag1[10:0]</obj_property>
+         <obj_property name="ObjectShortName">strtag1[10:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache2/addrlatch">
+         <obj_property name="ElementShortName">addrlatch[8:0]</obj_property>
+         <obj_property name="ObjectShortName">addrlatch[8:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache2/state">
+         <obj_property name="ElementShortName">state[2:0]</obj_property>
+         <obj_property name="ObjectShortName">state[2:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache2/state_name">
+         <obj_property name="ElementShortName">state_name[31:0]</obj_property>
+         <obj_property name="ObjectShortName">state_name[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache2/bus_tagdata">
+         <obj_property name="ElementShortName">bus_tagdata[5:0]</obj_property>
+         <obj_property name="ObjectShortName">bus_tagdata[5:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache2/bus_index">
+         <obj_property name="ElementShortName">bus_index[2:0]</obj_property>
+         <obj_property name="ObjectShortName">bus_index[2:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache2/bus_MSI_bit0">
+         <obj_property name="ElementShortName">bus_MSI_bit0[1:0]</obj_property>
+         <obj_property name="ObjectShortName">bus_MSI_bit0[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache2/bus_MSI_bit1">
+         <obj_property name="ElementShortName">bus_MSI_bit1[1:0]</obj_property>
+         <obj_property name="ObjectShortName">bus_MSI_bit1[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache2/bus_state_in">
+         <obj_property name="ElementShortName">bus_state_in[1:0]</obj_property>
+         <obj_property name="ObjectShortName">bus_state_in[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache2/bus_state_next">
+         <obj_property name="ElementShortName">bus_state_next[1:0]</obj_property>
+         <obj_property name="ObjectShortName">bus_state_next[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/cache2/bus_hit">
+         <obj_property name="ElementShortName">bus_hit</obj_property>
+         <obj_property name="ObjectShortName">bus_hit</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/cache2/bus_hit_w0">
+         <obj_property name="ElementShortName">bus_hit_w0</obj_property>
+         <obj_property name="ObjectShortName">bus_hit_w0</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/cache2/bus_hit_w1">
+         <obj_property name="ElementShortName">bus_hit_w1</obj_property>
+         <obj_property name="ObjectShortName">bus_hit_w1</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/cache2/bus_valid">
+         <obj_property name="ElementShortName">bus_valid</obj_property>
+         <obj_property name="ObjectShortName">bus_valid</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/cache2/bus_vw0">
+         <obj_property name="ElementShortName">bus_vw0</obj_property>
+         <obj_property name="ObjectShortName">bus_vw0</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/cache2/bus_vw1">
+         <obj_property name="ElementShortName">bus_vw1</obj_property>
+         <obj_property name="ObjectShortName">bus_vw1</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache2/bus_rtag0">
+         <obj_property name="ElementShortName">bus_rtag0[10:0]</obj_property>
+         <obj_property name="ObjectShortName">bus_rtag0[10:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache2/bus_rtag1">
+         <obj_property name="ElementShortName">bus_rtag1[10:0]</obj_property>
+         <obj_property name="ObjectShortName">bus_rtag1[10:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache2/bus_wtag0">
+         <obj_property name="ElementShortName">bus_wtag0[10:0]</obj_property>
+         <obj_property name="ObjectShortName">bus_wtag0[10:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache2/bus_wtag1">
+         <obj_property name="ElementShortName">bus_wtag1[10:0]</obj_property>
+         <obj_property name="ObjectShortName">bus_wtag1[10:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/cache2/bus_wet0">
+         <obj_property name="ElementShortName">bus_wet0</obj_property>
+         <obj_property name="ObjectShortName">bus_wet0</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/cache2/bus_wet1">
+         <obj_property name="ElementShortName">bus_wet1</obj_property>
+         <obj_property name="ObjectShortName">bus_wet1</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/cache2/bus_uw0">
+         <obj_property name="ElementShortName">bus_uw0</obj_property>
+         <obj_property name="ObjectShortName">bus_uw0</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/cache2/bus_uw1">
+         <obj_property name="ElementShortName">bus_uw1</obj_property>
+         <obj_property name="ObjectShortName">bus_uw1</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/cache2/bus_miss">
+         <obj_property name="ElementShortName">bus_miss</obj_property>
+         <obj_property name="ObjectShortName">bus_miss</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache2/AWIDTH">
+         <obj_property name="ElementShortName">AWIDTH[31:0]</obj_property>
+         <obj_property name="ObjectShortName">AWIDTH[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache2/DWIDTH">
+         <obj_property name="ElementShortName">DWIDTH[31:0]</obj_property>
+         <obj_property name="ObjectShortName">DWIDTH[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache2/CACHELINES">
+         <obj_property name="ElementShortName">CACHELINES[31:0]</obj_property>
+         <obj_property name="ObjectShortName">CACHELINES[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache2/BLOCKSIZE">
+         <obj_property name="ElementShortName">BLOCKSIZE[31:0]</obj_property>
+         <obj_property name="ObjectShortName">BLOCKSIZE[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache2/NUMOFSETS">
+         <obj_property name="ElementShortName">NUMOFSETS[31:0]</obj_property>
+         <obj_property name="ObjectShortName">NUMOFSETS[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache2/VALIDBIT">
+         <obj_property name="ElementShortName">VALIDBIT[31:0]</obj_property>
+         <obj_property name="ObjectShortName">VALIDBIT[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache2/DIRTYBIT">
+         <obj_property name="ElementShortName">DIRTYBIT[31:0]</obj_property>
+         <obj_property name="ObjectShortName">DIRTYBIT[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache2/USEDBIT">
+         <obj_property name="ElementShortName">USEDBIT[31:0]</obj_property>
+         <obj_property name="ObjectShortName">USEDBIT[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache2/TAGWIDTH">
+         <obj_property name="ElementShortName">TAGWIDTH[31:0]</obj_property>
+         <obj_property name="ObjectShortName">TAGWIDTH[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache2/MSIBIT">
+         <obj_property name="ElementShortName">MSIBIT[31:0]</obj_property>
+         <obj_property name="ObjectShortName">MSIBIT[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache2/BUS_INVALIDATE">
+         <obj_property name="ElementShortName">BUS_INVALIDATE[1:0]</obj_property>
+         <obj_property name="ObjectShortName">BUS_INVALIDATE[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache2/BUS_WRITE_MISS">
+         <obj_property name="ElementShortName">BUS_WRITE_MISS[1:0]</obj_property>
+         <obj_property name="ObjectShortName">BUS_WRITE_MISS[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache2/BUS_READ_MISS">
+         <obj_property name="ElementShortName">BUS_READ_MISS[1:0]</obj_property>
+         <obj_property name="ObjectShortName">BUS_READ_MISS[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/cache2/clock">
+         <obj_property name="ElementShortName">clock</obj_property>
+         <obj_property name="ObjectShortName">clock</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/cache2/reset_n">
+         <obj_property name="ElementShortName">reset_n</obj_property>
+         <obj_property name="ObjectShortName">reset_n</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache2/data_in">
+         <obj_property name="ElementShortName">data_in[31:0]</obj_property>
+         <obj_property name="ObjectShortName">data_in[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache2/data_mem_in">
+         <obj_property name="ElementShortName">data_mem_in[31:0]</obj_property>
+         <obj_property name="ObjectShortName">data_mem_in[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache2/addr_cpu">
+         <obj_property name="ElementShortName">addr_cpu[8:0]</obj_property>
+         <obj_property name="ObjectShortName">addr_cpu[8:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache2/addr_mem">
+         <obj_property name="ElementShortName">addr_mem[8:0]</obj_property>
+         <obj_property name="ObjectShortName">addr_mem[8:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/cache2/rd_cpu">
+         <obj_property name="ElementShortName">rd_cpu</obj_property>
+         <obj_property name="ObjectShortName">rd_cpu</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/cache2/wr_cpu">
+         <obj_property name="ElementShortName">wr_cpu</obj_property>
+         <obj_property name="ObjectShortName">wr_cpu</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache2/bus_request">
+         <obj_property name="ElementShortName">bus_request[1:0]</obj_property>
+         <obj_property name="ObjectShortName">bus_request[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache2/bus_request_mem_address">
+         <obj_property name="ElementShortName">bus_request_mem_address[8:0]</obj_property>
+         <obj_property name="ObjectShortName">bus_request_mem_address[8:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache2/bus_reply">
+         <obj_property name="ElementShortName">bus_reply[1:0]</obj_property>
+         <obj_property name="ObjectShortName">bus_reply[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache2/state_next_bus">
+         <obj_property name="ElementShortName">state_next_bus[1:0]</obj_property>
+         <obj_property name="ObjectShortName">state_next_bus[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/cache2/rd_mem">
+         <obj_property name="ElementShortName">rd_mem</obj_property>
+         <obj_property name="ObjectShortName">rd_mem</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/cache2/wr_mem">
+         <obj_property name="ElementShortName">wr_mem</obj_property>
+         <obj_property name="ObjectShortName">wr_mem</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/cache2/stall_cpu">
+         <obj_property name="ElementShortName">stall_cpu</obj_property>
+         <obj_property name="ObjectShortName">stall_cpu</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/cache2/ready_mem">
+         <obj_property name="ElementShortName">ready_mem</obj_property>
+         <obj_property name="ObjectShortName">ready_mem</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache2/data_out">
+         <obj_property name="ElementShortName">data_out[31:0]</obj_property>
+         <obj_property name="ObjectShortName">data_out[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache2/data_mem_out">
+         <obj_property name="ElementShortName">data_mem_out[31:0]</obj_property>
+         <obj_property name="ObjectShortName">data_mem_out[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache2/tagdata">
+         <obj_property name="ElementShortName">tagdata[5:0]</obj_property>
+         <obj_property name="ObjectShortName">tagdata[5:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache2/index">
+         <obj_property name="ElementShortName">index[2:0]</obj_property>
+         <obj_property name="ObjectShortName">index[2:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache2/MSI_bit0">
+         <obj_property name="ElementShortName">MSI_bit0[1:0]</obj_property>
+         <obj_property name="ObjectShortName">MSI_bit0[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache2/MSI_bit1">
+         <obj_property name="ElementShortName">MSI_bit1[1:0]</obj_property>
+         <obj_property name="ObjectShortName">MSI_bit1[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache2/state_in">
+         <obj_property name="ElementShortName">state_in[1:0]</obj_property>
+         <obj_property name="ObjectShortName">state_in[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache2/state_next">
+         <obj_property name="ElementShortName">state_next[1:0]</obj_property>
+         <obj_property name="ObjectShortName">state_next[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache2/rdata_byte">
+         <obj_property name="ElementShortName">rdata_byte[31:0]</obj_property>
+         <obj_property name="ObjectShortName">rdata_byte[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache2/wdata_byte">
+         <obj_property name="ElementShortName">wdata_byte[31:0]</obj_property>
+         <obj_property name="ObjectShortName">wdata_byte[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache2/wmem_byte">
+         <obj_property name="ElementShortName">wmem_byte[31:0]</obj_property>
+         <obj_property name="ObjectShortName">wmem_byte[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache2/rmem_4byte">
+         <obj_property name="ElementShortName">rmem_4byte[31:0]</obj_property>
+         <obj_property name="ObjectShortName">rmem_4byte[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache2/wmem_4byte">
+         <obj_property name="ElementShortName">wmem_4byte[31:0]</obj_property>
+         <obj_property name="ObjectShortName">wmem_4byte[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/cache2/cpu_read_hit">
+         <obj_property name="ElementShortName">cpu_read_hit</obj_property>
+         <obj_property name="ObjectShortName">cpu_read_hit</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/cache2/cpu_read_miss">
+         <obj_property name="ElementShortName">cpu_read_miss</obj_property>
+         <obj_property name="ObjectShortName">cpu_read_miss</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/cache2/cpu_write_hit">
+         <obj_property name="ElementShortName">cpu_write_hit</obj_property>
+         <obj_property name="ObjectShortName">cpu_write_hit</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/cache2/cpu_write_miss">
+         <obj_property name="ElementShortName">cpu_write_miss</obj_property>
+         <obj_property name="ObjectShortName">cpu_write_miss</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/cache2/write_hit">
+         <obj_property name="ElementShortName">write_hit</obj_property>
+         <obj_property name="ObjectShortName">write_hit</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/cache2/write_miss">
+         <obj_property name="ElementShortName">write_miss</obj_property>
+         <obj_property name="ObjectShortName">write_miss</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/cache2/read_hit">
+         <obj_property name="ElementShortName">read_hit</obj_property>
+         <obj_property name="ObjectShortName">read_hit</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/cache2/read_miss">
+         <obj_property name="ElementShortName">read_miss</obj_property>
+         <obj_property name="ObjectShortName">read_miss</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/cache2/miss">
+         <obj_property name="ElementShortName">miss</obj_property>
+         <obj_property name="ObjectShortName">miss</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/cache2/rdwr">
+         <obj_property name="ElementShortName">rdwr</obj_property>
+         <obj_property name="ObjectShortName">rdwr</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/cache2/we0">
+         <obj_property name="ElementShortName">we0</obj_property>
+         <obj_property name="ObjectShortName">we0</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/cache2/we1">
+         <obj_property name="ElementShortName">we1</obj_property>
+         <obj_property name="ObjectShortName">we1</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/cache2/wet0">
+         <obj_property name="ElementShortName">wet0</obj_property>
+         <obj_property name="ObjectShortName">wet0</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/cache2/wet1">
+         <obj_property name="ElementShortName">wet1</obj_property>
+         <obj_property name="ObjectShortName">wet1</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/cache2/update_flag">
+         <obj_property name="ElementShortName">update_flag</obj_property>
+         <obj_property name="ObjectShortName">update_flag</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/cache2/miss_flag">
+         <obj_property name="ElementShortName">miss_flag</obj_property>
+         <obj_property name="ObjectShortName">miss_flag</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/cache2/hit">
+         <obj_property name="ElementShortName">hit</obj_property>
+         <obj_property name="ObjectShortName">hit</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/cache2/hit_w0">
+         <obj_property name="ElementShortName">hit_w0</obj_property>
+         <obj_property name="ObjectShortName">hit_w0</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/cache2/hit_w1">
+         <obj_property name="ElementShortName">hit_w1</obj_property>
+         <obj_property name="ObjectShortName">hit_w1</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/cache2/valid">
+         <obj_property name="ElementShortName">valid</obj_property>
+         <obj_property name="ObjectShortName">valid</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/cache2/vw0">
+         <obj_property name="ElementShortName">vw0</obj_property>
+         <obj_property name="ObjectShortName">vw0</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/cache2/vw1">
+         <obj_property name="ElementShortName">vw1</obj_property>
+         <obj_property name="ObjectShortName">vw1</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/cache2/uw0">
+         <obj_property name="ElementShortName">uw0</obj_property>
+         <obj_property name="ObjectShortName">uw0</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/cache2/uw1">
+         <obj_property name="ElementShortName">uw1</obj_property>
+         <obj_property name="ObjectShortName">uw1</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/cache2/dirty">
+         <obj_property name="ElementShortName">dirty</obj_property>
+         <obj_property name="ObjectShortName">dirty</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/cache2/dw0">
+         <obj_property name="ElementShortName">dw0</obj_property>
+         <obj_property name="ObjectShortName">dw0</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/cache2/dw1">
+         <obj_property name="ElementShortName">dw1</obj_property>
+         <obj_property name="ObjectShortName">dw1</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache2/rtag0">
+         <obj_property name="ElementShortName">rtag0[10:0]</obj_property>
+         <obj_property name="ObjectShortName">rtag0[10:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache2/rtag1">
+         <obj_property name="ElementShortName">rtag1[10:0]</obj_property>
+         <obj_property name="ObjectShortName">rtag1[10:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache2/rdata0">
+         <obj_property name="ElementShortName">rdata0[31:0]</obj_property>
+         <obj_property name="ObjectShortName">rdata0[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache2/rdata1">
+         <obj_property name="ElementShortName">rdata1[31:0]</obj_property>
+         <obj_property name="ObjectShortName">rdata1[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache2/rdata">
+         <obj_property name="ElementShortName">rdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">rdata[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache2/wdata">
+         <obj_property name="ElementShortName">wdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">wdata[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache2/strdata0">
+         <obj_property name="ElementShortName">strdata0[31:0]</obj_property>
+         <obj_property name="ObjectShortName">strdata0[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache2/strdata1">
+         <obj_property name="ElementShortName">strdata1[31:0]</obj_property>
+         <obj_property name="ObjectShortName">strdata1[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache2/wtag0">
+         <obj_property name="ElementShortName">wtag0[10:0]</obj_property>
+         <obj_property name="ObjectShortName">wtag0[10:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache2/wtag1">
+         <obj_property name="ElementShortName">wtag1[10:0]</obj_property>
+         <obj_property name="ObjectShortName">wtag1[10:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache2/strtag0">
+         <obj_property name="ElementShortName">strtag0[10:0]</obj_property>
+         <obj_property name="ObjectShortName">strtag0[10:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache2/strtag1">
+         <obj_property name="ElementShortName">strtag1[10:0]</obj_property>
+         <obj_property name="ObjectShortName">strtag1[10:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache2/addrlatch">
+         <obj_property name="ElementShortName">addrlatch[8:0]</obj_property>
+         <obj_property name="ObjectShortName">addrlatch[8:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache2/state">
+         <obj_property name="ElementShortName">state[2:0]</obj_property>
+         <obj_property name="ObjectShortName">state[2:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache2/state_name">
+         <obj_property name="ElementShortName">state_name[31:0]</obj_property>
+         <obj_property name="ObjectShortName">state_name[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache2/bus_tagdata">
+         <obj_property name="ElementShortName">bus_tagdata[5:0]</obj_property>
+         <obj_property name="ObjectShortName">bus_tagdata[5:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache2/bus_index">
+         <obj_property name="ElementShortName">bus_index[2:0]</obj_property>
+         <obj_property name="ObjectShortName">bus_index[2:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache2/bus_MSI_bit0">
+         <obj_property name="ElementShortName">bus_MSI_bit0[1:0]</obj_property>
+         <obj_property name="ObjectShortName">bus_MSI_bit0[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache2/bus_MSI_bit1">
+         <obj_property name="ElementShortName">bus_MSI_bit1[1:0]</obj_property>
+         <obj_property name="ObjectShortName">bus_MSI_bit1[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache2/bus_state_in">
+         <obj_property name="ElementShortName">bus_state_in[1:0]</obj_property>
+         <obj_property name="ObjectShortName">bus_state_in[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache2/bus_state_next">
+         <obj_property name="ElementShortName">bus_state_next[1:0]</obj_property>
+         <obj_property name="ObjectShortName">bus_state_next[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/cache2/bus_hit">
+         <obj_property name="ElementShortName">bus_hit</obj_property>
+         <obj_property name="ObjectShortName">bus_hit</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/cache2/bus_hit_w0">
+         <obj_property name="ElementShortName">bus_hit_w0</obj_property>
+         <obj_property name="ObjectShortName">bus_hit_w0</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/cache2/bus_hit_w1">
+         <obj_property name="ElementShortName">bus_hit_w1</obj_property>
+         <obj_property name="ObjectShortName">bus_hit_w1</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/cache2/bus_valid">
+         <obj_property name="ElementShortName">bus_valid</obj_property>
+         <obj_property name="ObjectShortName">bus_valid</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/cache2/bus_vw0">
+         <obj_property name="ElementShortName">bus_vw0</obj_property>
+         <obj_property name="ObjectShortName">bus_vw0</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/cache2/bus_vw1">
+         <obj_property name="ElementShortName">bus_vw1</obj_property>
+         <obj_property name="ObjectShortName">bus_vw1</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache2/bus_rtag0">
+         <obj_property name="ElementShortName">bus_rtag0[10:0]</obj_property>
+         <obj_property name="ObjectShortName">bus_rtag0[10:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache2/bus_rtag1">
+         <obj_property name="ElementShortName">bus_rtag1[10:0]</obj_property>
+         <obj_property name="ObjectShortName">bus_rtag1[10:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache2/bus_wtag0">
+         <obj_property name="ElementShortName">bus_wtag0[10:0]</obj_property>
+         <obj_property name="ObjectShortName">bus_wtag0[10:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache2/bus_wtag1">
+         <obj_property name="ElementShortName">bus_wtag1[10:0]</obj_property>
+         <obj_property name="ObjectShortName">bus_wtag1[10:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/cache2/bus_wet0">
+         <obj_property name="ElementShortName">bus_wet0</obj_property>
+         <obj_property name="ObjectShortName">bus_wet0</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/cache2/bus_wet1">
+         <obj_property name="ElementShortName">bus_wet1</obj_property>
+         <obj_property name="ObjectShortName">bus_wet1</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/cache2/bus_uw0">
+         <obj_property name="ElementShortName">bus_uw0</obj_property>
+         <obj_property name="ObjectShortName">bus_uw0</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/cache2/bus_uw1">
+         <obj_property name="ElementShortName">bus_uw1</obj_property>
+         <obj_property name="ObjectShortName">bus_uw1</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/cache2/bus_miss">
+         <obj_property name="ElementShortName">bus_miss</obj_property>
+         <obj_property name="ObjectShortName">bus_miss</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/cache2/bus_controler_write_back">
+         <obj_property name="ElementShortName">bus_controler_write_back</obj_property>
+         <obj_property name="ObjectShortName">bus_controler_write_back</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache2/AWIDTH">
+         <obj_property name="ElementShortName">AWIDTH[31:0]</obj_property>
+         <obj_property name="ObjectShortName">AWIDTH[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache2/DWIDTH">
+         <obj_property name="ElementShortName">DWIDTH[31:0]</obj_property>
+         <obj_property name="ObjectShortName">DWIDTH[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache2/CACHELINES">
+         <obj_property name="ElementShortName">CACHELINES[31:0]</obj_property>
+         <obj_property name="ObjectShortName">CACHELINES[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache2/BLOCKSIZE">
+         <obj_property name="ElementShortName">BLOCKSIZE[31:0]</obj_property>
+         <obj_property name="ObjectShortName">BLOCKSIZE[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache2/NUMOFSETS">
+         <obj_property name="ElementShortName">NUMOFSETS[31:0]</obj_property>
+         <obj_property name="ObjectShortName">NUMOFSETS[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache2/VALIDBIT">
+         <obj_property name="ElementShortName">VALIDBIT[31:0]</obj_property>
+         <obj_property name="ObjectShortName">VALIDBIT[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache2/DIRTYBIT">
+         <obj_property name="ElementShortName">DIRTYBIT[31:0]</obj_property>
+         <obj_property name="ObjectShortName">DIRTYBIT[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache2/USEDBIT">
+         <obj_property name="ElementShortName">USEDBIT[31:0]</obj_property>
+         <obj_property name="ObjectShortName">USEDBIT[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache2/TAGWIDTH">
+         <obj_property name="ElementShortName">TAGWIDTH[31:0]</obj_property>
+         <obj_property name="ObjectShortName">TAGWIDTH[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache2/MSIBIT">
+         <obj_property name="ElementShortName">MSIBIT[31:0]</obj_property>
+         <obj_property name="ObjectShortName">MSIBIT[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache2/BUS_INVALIDATE">
+         <obj_property name="ElementShortName">BUS_INVALIDATE[1:0]</obj_property>
+         <obj_property name="ObjectShortName">BUS_INVALIDATE[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache2/BUS_WRITE_MISS">
+         <obj_property name="ElementShortName">BUS_WRITE_MISS[1:0]</obj_property>
+         <obj_property name="ObjectShortName">BUS_WRITE_MISS[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache2/BUS_READ_MISS">
+         <obj_property name="ElementShortName">BUS_READ_MISS[1:0]</obj_property>
+         <obj_property name="ObjectShortName">BUS_READ_MISS[1:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group3645">
+      <obj_property name="label">MEMORY</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="logic" fp_name="/testbench1/uut/memory/clk">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/memory/reset_n">
+         <obj_property name="ElementShortName">reset_n</obj_property>
+         <obj_property name="ObjectShortName">reset_n</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/memory/rd_mem">
+         <obj_property name="ElementShortName">rd_mem</obj_property>
+         <obj_property name="ObjectShortName">rd_mem</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/memory/wr_mem">
+         <obj_property name="ElementShortName">wr_mem</obj_property>
+         <obj_property name="ObjectShortName">wr_mem</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/memory/data_in">
+         <obj_property name="ElementShortName">data_in[31:0]</obj_property>
+         <obj_property name="ObjectShortName">data_in[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/memory/addr_mem">
+         <obj_property name="ElementShortName">addr_mem[8:0]</obj_property>
+         <obj_property name="ObjectShortName">addr_mem[8:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/memory/data_out">
+         <obj_property name="ElementShortName">data_out[31:0]</obj_property>
+         <obj_property name="ObjectShortName">data_out[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/memory/ready_mem">
+         <obj_property name="ElementShortName">ready_mem</obj_property>
+         <obj_property name="ObjectShortName">ready_mem</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/memory/ram_block">
+         <obj_property name="ElementShortName">ram_block[0:511][31:0]</obj_property>
+         <obj_property name="ObjectShortName">ram_block[0:511][31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/memory/addr">
+         <obj_property name="ElementShortName">addr[8:0]</obj_property>
+         <obj_property name="ObjectShortName">addr[8:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/memory/AWIDTH">
+         <obj_property name="ElementShortName">AWIDTH[31:0]</obj_property>
+         <obj_property name="ObjectShortName">AWIDTH[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/memory/DWIDTH">
+         <obj_property name="ElementShortName">DWIDTH[31:0]</obj_property>
+         <obj_property name="ObjectShortName">DWIDTH[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group4773">
+      <obj_property name="label">CACHE1.TRO</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="logic" fp_name="/testbench1/uut/cache1/bus_tr0/clock">
+         <obj_property name="ElementShortName">clock</obj_property>
+         <obj_property name="ObjectShortName">clock</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache1/bus_tr0/addr">
+         <obj_property name="ElementShortName">addr[2:0]</obj_property>
+         <obj_property name="ObjectShortName">addr[2:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache1/bus_tr0/din">
+         <obj_property name="ElementShortName">din[10:0]</obj_property>
+         <obj_property name="ObjectShortName">din[10:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/cache1/bus_tr0/we">
+         <obj_property name="ElementShortName">we</obj_property>
+         <obj_property name="ObjectShortName">we</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache1/bus_tr0/dout">
+         <obj_property name="ElementShortName">dout[10:0]</obj_property>
+         <obj_property name="ObjectShortName">dout[10:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache1/bus_tr0/mem_array_t0">
+         <obj_property name="ElementShortName">mem_array_t0[0:7][10:0]</obj_property>
+         <obj_property name="ObjectShortName">mem_array_t0[0:7][10:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache1/bus_tr0/rd_addr">
+         <obj_property name="ElementShortName">rd_addr[2:0]</obj_property>
+         <obj_property name="ObjectShortName">rd_addr[2:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache1/bus_tr0/AWIDTH">
+         <obj_property name="ElementShortName">AWIDTH[31:0]</obj_property>
+         <obj_property name="ObjectShortName">AWIDTH[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache1/bus_tr0/DWIDTH">
+         <obj_property name="ElementShortName">DWIDTH[31:0]</obj_property>
+         <obj_property name="ObjectShortName">DWIDTH[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache1/bus_tr0/DEPTH">
+         <obj_property name="ElementShortName">DEPTH[31:0]</obj_property>
+         <obj_property name="ObjectShortName">DEPTH[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group1473">
+      <obj_property name="label">CACHE2.TR0</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="logic" fp_name="/testbench1/uut/cache2/bus_tr0/clock">
+         <obj_property name="ElementShortName">clock</obj_property>
+         <obj_property name="ObjectShortName">clock</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache2/bus_tr0/addr">
+         <obj_property name="ElementShortName">addr[2:0]</obj_property>
+         <obj_property name="ObjectShortName">addr[2:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache2/bus_tr0/din">
+         <obj_property name="ElementShortName">din[10:0]</obj_property>
+         <obj_property name="ObjectShortName">din[10:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench1/uut/cache2/bus_tr0/we">
+         <obj_property name="ElementShortName">we</obj_property>
+         <obj_property name="ObjectShortName">we</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache2/bus_tr0/dout">
+         <obj_property name="ElementShortName">dout[10:0]</obj_property>
+         <obj_property name="ObjectShortName">dout[10:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache2/bus_tr0/mem_array_t0">
+         <obj_property name="ElementShortName">mem_array_t0[0:7][10:0]</obj_property>
+         <obj_property name="ObjectShortName">mem_array_t0[0:7][10:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache2/bus_tr0/rd_addr">
+         <obj_property name="ElementShortName">rd_addr[2:0]</obj_property>
+         <obj_property name="ObjectShortName">rd_addr[2:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache2/bus_tr0/AWIDTH">
+         <obj_property name="ElementShortName">AWIDTH[31:0]</obj_property>
+         <obj_property name="ObjectShortName">AWIDTH[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache2/bus_tr0/DWIDTH">
+         <obj_property name="ElementShortName">DWIDTH[31:0]</obj_property>
+         <obj_property name="ObjectShortName">DWIDTH[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench1/uut/cache2/bus_tr0/DEPTH">
+         <obj_property name="ElementShortName">DEPTH[31:0]</obj_property>
+         <obj_property name="ObjectShortName">DEPTH[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

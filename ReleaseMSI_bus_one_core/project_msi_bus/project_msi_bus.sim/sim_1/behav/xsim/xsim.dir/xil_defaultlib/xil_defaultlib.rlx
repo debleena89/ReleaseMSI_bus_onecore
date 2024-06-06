@@ -1,0 +1,17 @@
+0.7
+2020.2
+May  7 2023
+15:10:42
+/home/debleena/Thales/ReleaseMSI_bus/FSM_MSI_BUS_requests_controller.v,1694236792,verilog,,/home/debleena/Thales/ReleaseMSI_bus/ram_sync_read_d0.v,,FSM_MSI_BUS_requests_controller,,uvm,,,,,,
+/home/debleena/Thales/ReleaseMSI_bus/FSM_MSI_CPU_requests_controller.v,1706083530,systemVerilog,,/home/debleena/Thales/ReleaseMSI_bus/processor_A/ProcessorCoreA.v,,FSM_MSI_CPU_requests_controller,,uvm,,,,,,
+/home/debleena/Thales/ReleaseMSI_bus/cache_2wsa_modified.sv,1708423805,systemVerilog,,/home/debleena/Thales/ReleaseMSI_bus/main_memory.v,,cache_2wsa_modified,,uvm,,,,,,
+/home/debleena/Thales/ReleaseMSI_bus/main_memory.v,1708408746,systemVerilog,,/home/debleena/Thales/ReleaseMSI_bus/stage2.sv,,main_memory,,uvm,,,,,,
+/home/debleena/Thales/ReleaseMSI_bus/processor_A/ProcessorCoreA.v,1708501659,systemVerilog,,/home/debleena/Thales/ReleaseMSI_bus/processor_B/ProcessorCoreB.v,,ProcessorCoreA,,uvm,,,,,,
+/home/debleena/Thales/ReleaseMSI_bus/processor_B/ProcessorCoreB.v,1708501734,systemVerilog,,/home/debleena/Thales/ReleaseMSI_bus/cache_2wsa_modified.sv,,ProcessorCoreB,,uvm,,,,,,
+/home/debleena/Thales/ReleaseMSI_bus/processor_B/ram_sync_read_t0.v,1708501431,verilog,,/home/debleena/Thales/ReleaseMSI_bus/processor_B/ram_sync_read_t1.v,,ram_sync_read_t0,,uvm,,,,,,
+/home/debleena/Thales/ReleaseMSI_bus/processor_B/ram_sync_read_t1.v,1708501445,verilog,,,,ram_sync_read_t1,,uvm,,,,,,
+/home/debleena/Thales/ReleaseMSI_bus/project_msi_bus/project_msi_bus.sim/sim_1/behav/xsim/glbl.v,1683266558,verilog,,,,glbl,,uvm,,,,,,
+/home/debleena/Thales/ReleaseMSI_bus/ram_sync_read_d0.v,1708408723,verilog,,/home/debleena/Thales/ReleaseMSI_bus/ram_sync_read_d1.v,,ram_sync_read_d0,,uvm,,,,,,
+/home/debleena/Thales/ReleaseMSI_bus/ram_sync_read_d1.v,1708408731,verilog,,/home/debleena/Thales/ReleaseMSI_bus/processor_B/ram_sync_read_t0.v,,ram_sync_read_d1,,uvm,,,,,,
+/home/debleena/Thales/ReleaseMSI_bus/stage2.sv,1708422621,systemVerilog,,/home/debleena/Thales/ReleaseMSI_bus/testbench.sv,,stage2,,uvm,,,,,,
+/home/debleena/Thales/ReleaseMSI_bus/testbench.sv,1706090274,systemVerilog,,,,testbench1,,uvm,,,,,,

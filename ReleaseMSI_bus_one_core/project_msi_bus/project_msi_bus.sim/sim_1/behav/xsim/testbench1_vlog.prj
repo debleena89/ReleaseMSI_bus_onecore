@@ -1,0 +1,22 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../../FSM_MSI_BUS_requests_controller.v" \
+"../../../../../ram_sync_read_d0.v" \
+"../../../../../ram_sync_read_d1.v" \
+"../../../../../processor_B/ram_sync_read_t0.v" \
+"../../../../../processor_B/ram_sync_read_t1.v" \
+
+sv xil_defaultlib  \
+"../../../../../FSM_MSI_CPU_requests_controller.v" \
+"../../../../../processor_A/ProcessorCoreA.v" \
+"../../../../../processor_B/ProcessorCoreB.v" \
+"../../../../../cache_2wsa_modified.sv" \
+"../../../../../main_memory.v" \
+"../../../../../stage2.sv" \
+"../../../../../testbench.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

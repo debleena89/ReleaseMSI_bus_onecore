@@ -1,0 +1,11 @@
+Time resolution is 1 ps
+core1_instructions: 
+100000001000000000000000000000000000000000
+core1_instructions: 
+000000000100000000000000000000000000000000
+WARNING: Too many words specified in data file /home/debleena/Thales/ReleaseMSI_bus/memory.txt
+Error: no cpu should write and read at the once
+Error: no cpu should write and read at the once
+Error: no cpu should write and read at the once
+Error: no cpu should write and read at the once
+$finish called at time : 170 ns : File "/home/debleena/Thales/ReleaseMSI_bus/testbench.sv" Line 38
